@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">学校论坛APP</string>
+    <!--192.168.2.102-->
+    <string name="api_url">http://49.233.85.114:8080/SchoolForumAPPServer/servlet/</string>
+    <string name="notice_url">http://49.233.85.114:8080/SchoolForumAPPServer/notice/</string>
+    <string name="post_url">http://49.233.85.114:8080/SchoolForumAPPServer/post/</string>
+</resources>
