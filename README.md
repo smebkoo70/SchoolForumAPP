@@ -1,0 +1,5 @@
+# SchoolForumAPP
+SchoolForumAPP<br>
+该项目使用了HttpURLConnection进行联网，发帖时使用json进行数据传输，将帖子 信息传输到服务器端使用传参的输出流，相反从后台传过来的参数使用InputStream输入流来接受。<br>
+会员模块的实现中，设计了UserAction类，编写了UserDAO以达到对数据库访问的目的。 <br>
+项目整体使用了两个适配器，分别为MainAdapter、LookAdapter作为主界面和帖子界面的适配器，分别重写了getView方法，处理了listview中每个item的布局用来显示每个帖子。<br>
